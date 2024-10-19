@@ -1,5 +1,6 @@
 // If you can read this, you can read!
 // Does it work if I do it now?
+// Trying from the command line
 class Calculator {
 
     Calculator(){

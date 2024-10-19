@@ -2,7 +2,9 @@ name: Docker Workflow
 on:
     push:
         paths:
-            - '../**/*.java'
+        #     - '../**/*.java'
+        #     - '**.java'
+            - '**/*.java'
     workflow_dispatch:
 jobs:
     build_Docker_image:

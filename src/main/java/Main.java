@@ -8,24 +8,25 @@ public class Main {
         Calculator numCrunch = new Calculator();
 
         while(true){
+            System.out.println("/n **************************");
             System.out.println("Welcome to tiny calc!");
-            System.out.println("input o for options");
+            // System.out.println("input o for options");
             System.out.println("- Please input your command: ");
             String input = scanner.nextLine();
             String[] parsedInput = input.split(" ");
 
             String command = parsedInput[0];
-            if(input == "o" || input == "O"){
-                System.out.println("Command list:");
-                System.out.println("- add num1 num2");
-                System.out.println("- sub num1 num2");
-                System.out.println("- mult num1 num2");
-                System.out.println("- div num1 num2");
-                System.out.println("- bin num1");
-                System.out.println("- fib num1");
-                System.out.println("Commands must be spelled correctly and have the same case.");
-                continue;
-            }
+            // if(input == "o" || input == "O"){
+            //     System.out.println("Command list:");
+            //     System.out.println("- add num1 num2");
+            //     System.out.println("- sub num1 num2");
+            //     System.out.println("- mult num1 num2");
+            //     System.out.println("- div num1 num2");
+            //     System.out.println("- bin num1");
+            //     System.out.println("- fib num1");
+            //     System.out.println("Commands must be spelled correctly and have the same case.");
+            //     continue;
+            // }
 
             switch (command) {
                 case "add":

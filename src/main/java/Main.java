@@ -8,7 +8,7 @@ public class Main {
         Calculator numCrunch = new Calculator();
 
         while(true){
-            System.out.println("/n **************************");
+            System.out.println("\n **************************");
             System.out.println("Welcome to tiny calc!");
             // System.out.println("input o for options");
             System.out.println("- Please input your command: ");

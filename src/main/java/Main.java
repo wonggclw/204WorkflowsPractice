@@ -15,7 +15,7 @@ public class Main {
             String[] parsedInput = input.split(" ");
 
             String command = parsedInput[0];
-            if(command == "o" || command == "O"){
+            if(input == "o" || input == "O"){
                 System.out.println("Command list:");
                 System.out.println("- add num1 num2");
                 System.out.println("- sub num1 num2");

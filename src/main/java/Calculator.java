@@ -1,5 +1,4 @@
-// Let's see if this works now
-// If you can read this, you can read!
+// Grace is cool
 class Calculator {
 
     Calculator(){
